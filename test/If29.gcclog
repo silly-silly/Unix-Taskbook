@@ -1,0 +1,30 @@
+./If29.c: In function ‘main’:
+./If29.c:34:9: warning: implicit declaration of function ‘strcpy’ [-Wimplicit-function-declaration]
+   34 |         strcpy(s, "zero");
+      |         ^~~~~~
+./If29.c:34:9: warning: incompatible implicit declaration of built-in function ‘strcpy’
+./If29.c:2:1: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’
+    1 | #include "ut1.h"
+  +++ |+#include <string.h>
+    2 | 
+./If29.c:38:13: warning: incompatible implicit declaration of built-in function ‘strcpy’
+   38 |             strcpy(s, "negative");
+      |             ^~~~~~
+./If29.c:38:13: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’
+./If29.c:40:13: warning: incompatible implicit declaration of built-in function ‘strcpy’
+   40 |             strcpy(s, "positive");
+      |             ^~~~~~
+./If29.c:40:13: note: include ‘<string.h>’ or provide a declaration of ‘strcpy’
+./If29.c:42:13: warning: implicit declaration of function ‘strcat’ [-Wimplicit-function-declaration]
+   42 |             strcat(s, " odd");
+      |             ^~~~~~
+./If29.c:42:13: warning: incompatible implicit declaration of built-in function ‘strcat’
+./If29.c:42:13: note: include ‘<string.h>’ or provide a declaration of ‘strcat’
+./If29.c:44:13: warning: incompatible implicit declaration of built-in function ‘strcat’
+   44 |             strcat(s, " even");
+      |             ^~~~~~
+./If29.c:44:13: note: include ‘<string.h>’ or provide a declaration of ‘strcat’
+./If29.c:46:5: warning: incompatible implicit declaration of built-in function ‘strcat’
+   46 |     strcat(s, " number");
+      |     ^~~~~~
+./If29.c:46:5: note: include ‘<string.h>’ or provide a declaration of ‘strcat’

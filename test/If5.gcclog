@@ -1,0 +1,10 @@
+./If5.c: In function ‘main’:
+./If5.c:30:14: warning: passing argument 1 of ‘Show’ makes pointer from integer without a cast [-Wint-conversion]
+   30 |         Show(p);
+      |              ^
+      |              |
+      |              int
+In file included from ./If5.c:1:
+./ut1.h:10:23: note: expected ‘const char *’ but argument is of type ‘int’
+   10 | void Show(const char *cmt);
+      |           ~~~~~~~~~~~~^~~

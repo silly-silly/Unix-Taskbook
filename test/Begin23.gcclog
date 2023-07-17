@@ -1,0 +1,10 @@
+./Begin23.c: In function ‘main’:
+./Begin23.c:13:12: warning: ‘c’ is used uninitialized in this function [-Wuninitialized]
+   13 |     double x = c;
+      |            ^
+./Begin23.c:14:7: warning: ‘b’ is used uninitialized in this function [-Wuninitialized]
+   14 |     c = b;
+      |     ~~^~~
+./Begin23.c:15:7: warning: ‘a’ is used uninitialized in this function [-Wuninitialized]
+   15 |     b = a;
+      |     ~~^~~

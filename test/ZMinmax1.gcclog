@@ -1,0 +1,19 @@
+./ZMinmax1.c: In function ‘main’:
+./ZMinmax1.c:11:5: warning: implicit declaration of function ‘ShowCmt’; did you mean ‘ShowC’? [-Wimplicit-function-declaration]
+   11 |     ShowCmt("a = ");
+      |     ^~~~~~~
+      |     ShowC
+./ZMinmax1.c:17:5: error: too few arguments to function ‘ShowLine’
+   17 |     ShowLine();
+      |     ^~~~~~~~
+In file included from ./ZMinmax1.c:1:
+./ut1.h:19:6: note: declared here
+   19 | void ShowLine(const char *cmt);
+      |      ^~~~~~~~
+./ZMinmax1.c:31:9: error: too few arguments to function ‘ShowLine’
+   31 |         ShowLine();
+      |         ^~~~~~~~
+In file included from ./ZMinmax1.c:1:
+./ut1.h:19:6: note: declared here
+   19 | void ShowLine(const char *cmt);
+      |      ^~~~~~~~

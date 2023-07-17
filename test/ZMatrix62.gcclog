@@ -1,0 +1,18 @@
+./ZMatrix62.c: In function ‘main’:
+./ZMatrix62.c:9:18: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+    9 |     double** a = malloc(n * sizeof(double*));  // by columns!
+      |                  ^~~~~~
+./ZMatrix62.c:9:18: warning: incompatible implicit declaration of built-in function ‘malloc’
+./ZMatrix62.c:2:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+    1 | #include "ut1.h"
+  +++ |+#include <stdlib.h>
+    2 | 
+./ZMatrix62.c:27:9: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+   27 |         free(a[j]);
+      |         ^~~~
+./ZMatrix62.c:27:9: warning: incompatible implicit declaration of built-in function ‘free’
+./ZMatrix62.c:27:9: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’
+./ZMatrix62.c:28:5: warning: incompatible implicit declaration of built-in function ‘free’
+   28 |     free(a);
+      |     ^~~~
+./ZMatrix62.c:28:5: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’

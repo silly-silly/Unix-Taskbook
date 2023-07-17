@@ -1,0 +1,16 @@
+V1.1
+String
+Characters and strings
+M. E. Abramyan, 2007, 2012
+70 47 5 0 0 1 1
+3 0 0 1 1 1
+15 1
+A string that contains English words separated by one
+7 2
+or more blank characters is given. Output a new string that contains
+8 3
+the given words (in the same order) separated by one character ".".
+s 16 1 51 2 0
+MANUFACTURER  ALTERATION APERTURE SCHEDULE INDEED
+s 16 1 50 2 0
+MANUFACTURER.ALTERATION.APERTURE.SCHEDULE.INDEED

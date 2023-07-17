@@ -1,0 +1,18 @@
+./String51.c: In function ‘main’:
+./String51.c:8:16: warning: implicit declaration of function ‘malloc’ [-Wimplicit-function-declaration]
+    8 |     char **w = malloc(10 * sizeof(char *));
+      |                ^~~~~~
+./String51.c:8:16: warning: incompatible implicit declaration of built-in function ‘malloc’
+./String51.c:3:1: note: include ‘<stdlib.h>’ or provide a declaration of ‘malloc’
+    2 | #include <string.h>
+  +++ |+#include <stdlib.h>
+    3 | 
+./String51.c:42:9: warning: implicit declaration of function ‘free’ [-Wimplicit-function-declaration]
+   42 |         free(w[i]);
+      |         ^~~~
+./String51.c:42:9: warning: incompatible implicit declaration of built-in function ‘free’
+./String51.c:42:9: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’
+./String51.c:43:5: warning: incompatible implicit declaration of built-in function ‘free’
+   43 |     free(w);
+      |     ^~~~
+./String51.c:43:5: note: include ‘<stdlib.h>’ or provide a declaration of ‘free’
